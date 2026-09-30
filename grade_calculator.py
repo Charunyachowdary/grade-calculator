@@ -1,4 +1,4 @@
-# Keep asking until the user enters a mark from 0 to 100.
+
 def get_valid_mark(subject):
     while True:
         try:
@@ -10,7 +10,7 @@ def get_valid_mark(subject):
             print("Please enter a number. Try again.")
 
 
-# Choose a letter grade from the student's average percentage.
+
 def get_grade(percentage):
     if percentage >= 90:
         return "A"
@@ -26,7 +26,7 @@ def get_grade(percentage):
         return "F"
 
 
-# A student passes only when every subject mark is at least 35.
+
 def has_passed(marks):
     for mark in marks:
         if mark < 35:
